@@ -1,0 +1,76 @@
+#todoList {
+  width: 700px;
+  margin: 0 auto;
+  padding: 200px 0;
+  text-align: center;
+}
+
+input {
+  height: auto;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.addBtn {
+  border: none;
+  border-radius: 5px;
+  background-color: #0b803286;
+}
+.addBtn:active {
+  background-color: #00812b;
+}
+label,
+input[type="text"],
+button {
+  display: inline-block;
+  vertical-align: middle;
+}
+#listTable {
+  width: 100%;
+  margin-top: 50px;
+}
+#listTable > tbody > tr > th {
+  padding: 20px 0;
+  border: 1px solid #000;
+}
+#listTable > tbody > tr > th:nth-child(1) {
+  width: 55%;
+}
+#listTable > tbody > tr > th:nth-child(2) {
+  width: 25%;
+}
+
+#listTable > tbody > tr > td {
+  padding: 20px 0;
+}
+#listTable > tr > td:nth-child(3) > button {
+  width: 45px;
+  height: 20px;
+  line-height: 20px;
+}
+.deleteBtn {
+  border: none;
+  background-color: #df7e7e;
+}
+.replaceBtn {
+  border: none;
+  background-color: #71afcc;
+}
+td {
+  padding: 20px 0;
+  text-align: center;
+}
+.objBtnTD {
+  display: flex;
+  justify-content: space-evenly;
+}
+.replaceElement {
+  font-family: "GmarketSans";
+  border: none;
+  width: 45px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 20px;
+  background-color: #ffa55b;
+}
